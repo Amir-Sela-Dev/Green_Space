@@ -1,0 +1,36 @@
+.plant-filter {
+    grid-area: plant-filter;
+    padding: 1em;
+    padding: 0;
+    max-height: 80vh;
+    padding-inline-end: 20px;
+    padding-block-start: 10px;
+    position: sticky;
+    top: 0;
+    width: 245px;
+
+    .filter-category {
+        display: flex;
+        flex-direction: column;
+        // border-top: $clr7 solid 1px;
+        height: 68px;
+
+        input {
+            height: 35px;
+            border-radius: 15px;
+            border: $clr7 solid 0.3px;
+        }
+
+    }
+
+    .inStock {
+        width: 223px;
+        height: 38px;
+        font-size: 13px;
+        font-family: Bahnschrift, sans-serif;
+        color: #aaaaaa;
+        border: #aaaaaa solid 1px;
+
+    }
+
+}

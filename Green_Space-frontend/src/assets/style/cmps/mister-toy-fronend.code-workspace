@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../../../../Dropbox/CaNov22-Materials/Day47-FrameworkAdvanced/inClass"
+		},
+		{
+			"path": "../../../../../../Proj-Todos"
+		},
+		{
+			"path": "../../../../../../../../Dropbox/CaNov22-Materials/Day44-UserAuth/CR - Karam Isa"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Proj-Todos",
+		"liveServer.settings.port": 5501
+	}
+}

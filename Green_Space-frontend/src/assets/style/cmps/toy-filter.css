@@ -1,0 +1,8 @@
+.plant-filter {
+    background-color: var(--gray1);
+    padding: 1em;
+}
+
+.rmsc .dropdown-container {
+    width: 200px;
+}

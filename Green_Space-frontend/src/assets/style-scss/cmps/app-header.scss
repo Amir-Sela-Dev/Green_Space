@@ -1,0 +1,49 @@
+.app-header {
+    background-color: $clr1;
+    color: $clr2;
+    padding: 1em;
+    // display: grid;
+    // grid-template-columns: 200px 1fr;
+    // // grid-template-rows: 1fr 1fr;
+    // grid-template-areas:
+    //     'logo nav-bar '
+    // ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .user-area {
+        width: 50px;
+        margin-inline-end: 100px;
+
+        button {
+            @include btn($padding: em(10px) em(15px));
+            background-color: $clr2;
+            color: $clr1;
+
+        }
+
+    }
+
+    .nav-bar {
+        grid-area: nav-bar;
+        font-size: 2em;
+        // justify-self: center;
+        align-self: center;
+    }
+
+    .logo {
+        grid-area: logo;
+        font-size: 2em;
+    }
+
+    a {
+        color: $clr2;
+
+        &.active {
+            color: $clr7;
+        }
+
+    }
+
+}

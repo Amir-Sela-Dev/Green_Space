@@ -1,0 +1,46 @@
+.plant-main-index {
+
+    .first-row {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-auto-flow: column;
+        align-items: center;
+        margin-block: 10px;
+
+
+        h3 {
+            align-items: center;
+            justify-self: center;
+            font-size: 2em;
+            text-decoration: underline;
+        }
+
+        .add-btns {
+            justify-self: flex-start;
+            align-items: center;
+
+            .btn {
+                @include btn($padding: em(12px) em(35px));
+                margin-inline-end: 10px;
+                text-align: center;
+            }
+        }
+
+
+    }
+
+
+
+    main {
+        min-height: 75vh;
+        display: grid;
+        grid-template-columns: 245px 1fr;
+        grid-template-areas:
+            'plant-filter   plant-list'
+        ;
+
+    }
+
+
+
+}

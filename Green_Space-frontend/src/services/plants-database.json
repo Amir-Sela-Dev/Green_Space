@@ -1,0 +1,738 @@
+[
+    {
+        "id": "1",
+        "name": "Bougainvillea",
+        "type": [
+            "Climber",
+            "Outdoor"
+        ],
+        "light_requirements": "Full sun",
+        "watering_frequency": "Once a week",
+        "color": [
+            "Purple",
+            "Pink",
+            "White"
+        ],
+        "size": "Medium",
+        "location": [
+            "Garden"
+        ],
+        "description": "A vibrant flowering climber ideal for sunny gardens and fences.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1687960117170-897bd9fd0585?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "optimal_sun_hours": "6-8",
+        "soil_type": "Well-drained soil",
+        "availability": [
+            "Ramat Gan Nursery",
+            "Herzliya Nursery"
+        ],
+        "difficulty": "Intermediate",
+        "air_purifying": false,
+        "growth_rate": "Fast",
+        "temperature_range": "10-35°C",
+        "humidity_preference": "Low",
+        "life_cycle": "Perennial",
+        "toxic_to_pets": false,
+        "flowering_period": "Spring to Fall",
+        "propagation_methods": [
+            "Cuttings"
+        ],
+        "maintenance_level": "Medium",
+        "seasonality": "Evergreen",
+        "dimensions": {
+            "height": "2-4 m",
+            "spread": "2-3 m"
+        },
+        "native_region": "South America",
+        "companion_plants": [
+            "Jasmine",
+            "Lantana"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Jasmine",
+        "type": [
+            "Climber",
+            "Outdoor"
+        ],
+        "light_requirements": "Full sun to partial shade",
+        "watering_frequency": "Twice a week",
+        "color": [
+            "White"
+        ],
+        "size": "Medium",
+        "location": [
+            "Garden"
+        ],
+        "description": "A fragrant climber with delicate white flowers, perfect for gardens and patios.",
+        "image_url": "https://www.bialik-mashtelot.com/images/itempics/7801_061220201725043_large.jpg",
+        "optimal_sun_hours": "4-6",
+        "soil_type": "Fertile, well-drained soil",
+        "availability": [
+            "Kfar Saba Nursery",
+            "Jerusalem Nursery"
+        ],
+        "difficulty": "Intermediate",
+        "air_purifying": true,
+        "growth_rate": "Fast",
+        "temperature_range": "15-30°C",
+        "humidity_preference": "Medium",
+        "life_cycle": "Perennial",
+        "toxic_to_pets": false,
+        "flowering_period": "Summer",
+        "propagation_methods": [
+            "Cuttings"
+        ],
+        "maintenance_level": "Medium",
+        "seasonality": "Deciduous",
+        "dimensions": {
+            "height": "1-2 m",
+            "spread": "1-1.5 m"
+        },
+        "native_region": "Middle East",
+        "companion_plants": [
+            "Bougainvillea",
+            "Lavender"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Ficus Benjamina",
+        "type": [
+            "Tree",
+            "Indoor"
+        ],
+        "light_requirements": "Bright indirect light",
+        "watering_frequency": "Once a week",
+        "color": [
+            "Green"
+        ],
+        "size": "Large",
+        "location": [
+            "Indoor",
+            "Garden"
+        ],
+        "description": "An elegant indoor tree with glossy leaves, suitable for bright spaces.",
+        "image_url": "https://shrubz.us/wp-content/uploads/2015/04/Ficus_benjamina_featured.webp",
+        "optimal_sun_hours": "4-6",
+        "soil_type": "Well-drained soil",
+        "availability": [
+            "Tel Aviv Nursery",
+            "Petah Tikva Nursery"
+        ],
+        "difficulty": "Intermediate",
+        "air_purifying": true,
+        "growth_rate": "Moderate",
+        "temperature_range": "18-30°C",
+        "humidity_preference": "High",
+        "life_cycle": "Perennial",
+        "toxic_to_pets": true,
+        "flowering_period": "Rarely flowers indoors",
+        "propagation_methods": [
+            "Cuttings"
+        ],
+        "maintenance_level": "Low",
+        "seasonality": "Evergreen",
+        "dimensions": {
+            "height": "1.5-2.5 m",
+            "spread": "1-2 m"
+        },
+        "native_region": "South and Southeast Asia",
+        "companion_plants": [
+            "Pothos",
+            "Peace Lily"
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Lavender",
+        "type": [
+            "Shrub",
+            "Outdoor"
+        ],
+        "light_requirements": "Full sun",
+        "watering_frequency": "Once every two weeks",
+        "color": [
+            "Purple"
+        ],
+        "size": "Small",
+        "location": [
+            "Garden"
+        ],
+        "description": "A fragrant shrub with purple flowers, popular for its soothing aroma.",
+        "image_url": "https://images.unsplash.com/photo-1520320010102-6186e97bb42f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "optimal_sun_hours": "6-8",
+        "soil_type": "Sandy, well-drained soil",
+        "availability": [
+            "Haifa Nursery",
+            "Raanana Nursery"
+        ],
+        "difficulty": "Beginner",
+        "air_purifying": false,
+        "growth_rate": "Fast",
+        "temperature_range": "10-35°C",
+        "humidity_preference": "Low",
+        "life_cycle": "Perennial",
+        "toxic_to_pets": false,
+        "flowering_period": "Spring to Summer",
+        "propagation_methods": [
+            "Cuttings"
+        ],
+        "maintenance_level": "Low",
+        "seasonality": "Evergreen",
+        "dimensions": {
+            "height": "0.5-1 m",
+            "spread": "0.5-1 m"
+        },
+        "native_region": "Mediterranean",
+        "companion_plants": [
+            "Rosemary",
+            "Thyme"
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Cactus",
+        "type": [
+            "Succulent",
+            "Indoor"
+        ],
+        "light_requirements": "Full sun",
+        "watering_frequency": "Once a month",
+        "color": [
+            "Green"
+        ],
+        "size": "Small",
+        "location": [
+            "Indoor",
+            "Garden"
+        ],
+        "description": "A low-maintenance plant perfect for sunny indoor spots or arid gardens.",
+        "image_url": "https://rocketfarms.com/wp-content/uploads/Cactus-1-scaled.webp",
+        "optimal_sun_hours": "6-8",
+        "soil_type": "Sandy soil",
+        "availability": [
+            "Eilat Nursery",
+            "Desert Nursery"
+        ],
+        "difficulty": "Beginner",
+        "air_purifying": false,
+        "growth_rate": "Slow",
+        "temperature_range": "10-40°C",
+        "humidity_preference": "Low",
+        "life_cycle": "Perennial",
+        "toxic_to_pets": false,
+        "flowering_period": "Spring",
+        "propagation_methods": [
+            "Offsets"
+        ],
+        "maintenance_level": "Low",
+        "seasonality": "Evergreen",
+        "dimensions": {
+            "height": "10-50 cm",
+            "spread": "10-30 cm"
+        },
+        "native_region": "Desert regions",
+        "companion_plants": [
+            "Aloe Vera",
+            "Euphorbia"
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Rosemary",
+        "type": [
+            "Shrub",
+            "Herb",
+            "Outdoor"
+        ],
+        "light_requirements": "Full sun",
+        "watering_frequency": "Once every two weeks",
+        "color": [
+            "Green"
+        ],
+        "size": "Medium",
+        "location": [
+            "Garden",
+            "Balcony"
+        ],
+        "description": "A fragrant herb used in cooking, ideal for Mediterranean climates.",
+        "image_url": "https://example.com/rosemary.jpg",
+        "optimal_sun_hours": "6-8",
+        "soil_type": "Sandy, well-drained soil",
+        "availability": [
+            "Jerusalem Nursery",
+            "Tel Aviv Nursery"
+        ],
+        "difficulty": "Beginner",
+        "air_purifying": false,
+        "growth_rate": "Moderate",
+        "temperature_range": "10-35°C",
+        "humidity_preference": "Low",
+        "life_cycle": "Perennial",
+        "toxic_to_pets": false,
+        "flowering_period": "Spring",
+        "propagation_methods": [
+            "Cuttings",
+            "Seeds"
+        ],
+        "maintenance_level": "Low",
+        "seasonality": "Evergreen",
+        "dimensions": {
+            "height": "0.5-1.5 m",
+            "spread": "0.5-1 m"
+        },
+        "native_region": "Mediterranean",
+        "companion_plants": [
+            "Thyme",
+            "Lavender"
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Snake Plant",
+        "type": [
+            "Succulent",
+            "Indoor"
+        ],
+        "light_requirements": "Low to bright indirect light",
+        "watering_frequency": "Once every two weeks",
+        "color": [
+            "Green",
+            "Variegated"
+        ],
+        "size": "Small",
+        "location": [
+            "Indoor",
+            "Office"
+        ],
+        "description": "A hardy plant that thrives on neglect and improves indoor air quality.",
+        "image_url": "https://example.com/snake-plant.jpg",
+        "optimal_sun_hours": "2-4",
+        "soil_type": "Well-drained soil",
+        "availability": [
+            "Raanana Nursery",
+            "Haifa Nursery"
+        ],
+        "difficulty": "Beginner",
+        "air_purifying": true,
+        "growth_rate": "Slow",
+        "temperature_range": "15-30°C",
+        "humidity_preference": "Low",
+        "life_cycle": "Perennial",
+        "toxic_to_pets": true,
+        "flowering_period": "Rarely flowers indoors",
+        "propagation_methods": [
+            "Cuttings",
+            "Division"
+        ],
+        "maintenance_level": "Low",
+        "seasonality": "Evergreen",
+        "dimensions": {
+            "height": "50-80 cm",
+            "spread": "20-30 cm"
+        },
+        "native_region": "West Africa",
+        "companion_plants": [
+            "Peace Lily",
+            "Fiddle Leaf Fig"
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Aloe Vera",
+        "type": [
+            "Succulent",
+            "Indoor",
+            "Medicinal"
+        ],
+        "light_requirements": "Bright indirect light",
+        "watering_frequency": "Once every three weeks",
+        "color": [
+            "Green"
+        ],
+        "size": "Small",
+        "location": [
+            "Indoor",
+            "Balcony"
+        ],
+        "description": "A medicinal plant known for its soothing gel, perfect for beginners.",
+        "image_url": "https://example.com/aloe-vera.jpg",
+        "optimal_sun_hours": "4-6",
+        "soil_type": "Cactus mix",
+        "availability": [
+            "Giv'atayim Nursery",
+            "Rishon LeZion Nursery"
+        ],
+        "difficulty": "Beginner",
+        "air_purifying": true,
+        "growth_rate": "Slow",
+        "temperature_range": "15-30°C",
+        "humidity_preference": "Low",
+        "life_cycle": "Perennial",
+        "toxic_to_pets": true,
+        "flowering_period": "Spring to Summer",
+        "propagation_methods": [
+            "Division",
+            "Pups"
+        ],
+        "maintenance_level": "Low",
+        "seasonality": "Evergreen",
+        "dimensions": {
+            "height": "30-60 cm",
+            "spread": "20-30 cm"
+        },
+        "native_region": "Arabian Peninsula",
+        "companion_plants": [
+            "Cactus",
+            "Snake Plant"
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Geranium",
+        "type": [
+            "Flowering",
+            "Outdoor"
+        ],
+        "light_requirements": "Full sun to partial shade",
+        "watering_frequency": "Twice a week",
+        "color": [
+            "Pink",
+            "Red",
+            "White"
+        ],
+        "size": "Small",
+        "location": [
+            "Garden",
+            "Balcony"
+        ],
+        "description": "A colorful flowering plant ideal for pots and garden beds.",
+        "image_url": "https://example.com/geranium.jpg",
+        "optimal_sun_hours": "4-6",
+        "soil_type": "Well-drained soil",
+        "availability": [
+            "Kfar Saba Nursery",
+            "Raanana Nursery"
+        ],
+        "difficulty": "Intermediate",
+        "air_purifying": false,
+        "growth_rate": "Fast",
+        "temperature_range": "10-25°C",
+        "humidity_preference": "Medium",
+        "life_cycle": "Annual",
+        "toxic_to_pets": false,
+        "flowering_period": "Spring to Summer",
+        "propagation_methods": [
+            "Cuttings",
+            "Seeds"
+        ],
+        "maintenance_level": "Medium",
+        "seasonality": "Evergreen",
+        "dimensions": {
+            "height": "30-60 cm",
+            "spread": "30-50 cm"
+        },
+        "native_region": "South Africa",
+        "companion_plants": [
+            "Petunias",
+            "Lantana"
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Ficus Elastica",
+        "type": [
+            "Tree",
+            "Indoor"
+        ],
+        "light_requirements": "Bright indirect light",
+        "watering_frequency": "Once a week",
+        "color": [
+            "Green"
+        ],
+        "size": "Large",
+        "location": [
+            "Indoor",
+            "Office"
+        ],
+        "description": "A stylish indoor tree with glossy leaves, easy to maintain.",
+        "image_url": "https://example.com/rubber-plant.jpg",
+        "optimal_sun_hours": "4-6",
+        "soil_type": "Well-drained soil",
+        "availability": [
+            "Tel Aviv Nursery",
+            "Petah Tikva Nursery"
+        ],
+        "difficulty": "Intermediate",
+        "air_purifying": true,
+        "growth_rate": "Moderate",
+        "temperature_range": "18-30°C",
+        "humidity_preference": "Medium",
+        "life_cycle": "Perennial",
+        "toxic_to_pets": true,
+        "flowering_period": "Rarely flowers indoors",
+        "propagation_methods": [
+            "Cuttings"
+        ],
+        "maintenance_level": "Medium",
+        "seasonality": "Evergreen",
+        "dimensions": {
+            "height": "1-2 m",
+            "spread": "50-80 cm"
+        },
+        "native_region": "India",
+        "companion_plants": [
+            "Peace Lily",
+            "Snake Plant"
+        ]
+    },
+    {
+        "id": "11",
+        "name": "Peace Lily",
+        "type": [
+            "Flowering",
+            "Indoor"
+        ],
+        "light_requirements": "Low to bright indirect light",
+        "watering_frequency": "Once a week",
+        "color": [
+            "Green",
+            "White"
+        ],
+        "size": "Small",
+        "location": [
+            "Indoor",
+            "Office"
+        ],
+        "description": "An elegant flowering plant, known for its air-purifying qualities.",
+        "image_url": "https://example.com/peace-lily.jpg",
+        "optimal_sun_hours": "2-4",
+        "soil_type": "Well-drained soil",
+        "availability": [
+            "Haifa Nursery",
+            "Tel Aviv Nursery"
+        ],
+        "difficulty": "Beginner",
+        "air_purifying": true,
+        "growth_rate": "Moderate",
+        "temperature_range": "18-30°C",
+        "humidity_preference": "High",
+        "life_cycle": "Perennial",
+        "toxic_to_pets": true,
+        "flowering_period": "Spring",
+        "propagation_methods": [
+            "Division"
+        ],
+        "maintenance_level": "Low",
+        "seasonality": "Evergreen",
+        "dimensions": {
+            "height": "40-60 cm",
+            "spread": "30-50 cm"
+        },
+        "native_region": "Tropical Americas",
+        "companion_plants": [
+            "Snake Plant",
+            "Rubber Plant"
+        ]
+    },
+    {
+        "id": "12",
+        "name": "Lantana",
+        "type": [
+            "Shrub",
+            "Outdoor"
+        ],
+        "light_requirements": "Full sun",
+        "watering_frequency": "Once a week",
+        "color": [
+            "Yellow",
+            "Orange",
+            "Pink"
+        ],
+        "size": "Medium",
+        "location": [
+            "Garden"
+        ],
+        "description": "A vibrant flowering shrub that attracts butterflies and bees.",
+        "image_url": "https://example.com/lantana.jpg",
+        "optimal_sun_hours": "6-8",
+        "soil_type": "Well-drained soil",
+        "availability": [
+            "Raanana Nursery",
+            "Kfar Saba Nursery"
+        ],
+        "difficulty": "Beginner",
+        "air_purifying": false,
+        "growth_rate": "Fast",
+        "temperature_range": "15-35°C",
+        "humidity_preference": "Medium",
+        "life_cycle": "Perennial",
+        "toxic_to_pets": true,
+        "flowering_period": "Spring to Fall",
+        "propagation_methods": [
+            "Cuttings"
+        ],
+        "maintenance_level": "Low",
+        "seasonality": "Evergreen",
+        "dimensions": {
+            "height": "1-2 m",
+            "spread": "1-2 m"
+        },
+        "native_region": "Tropical Americas",
+        "companion_plants": [
+            "Jasmine",
+            "Bougainvillea"
+        ]
+    },
+    {
+        "id": "13",
+        "name": "Mint",
+        "type": [
+            "Herb",
+            "Outdoor"
+        ],
+        "light_requirements": "Partial shade to full sun",
+        "watering_frequency": "Twice a week",
+        "color": [
+            "Green"
+        ],
+        "size": "Small",
+        "location": [
+            "Garden",
+            "Balcony"
+        ],
+        "description": "A fast-growing herb with a refreshing aroma, widely used in cooking and drinks.",
+        "image_url": "https://example.com/mint.jpg",
+        "optimal_sun_hours": "3-6",
+        "soil_type": "Moist, well-drained soil",
+        "availability": [
+            "Rishon LeZion Nursery",
+            "Herzliya Nursery"
+        ],
+        "difficulty": "Beginner",
+        "air_purifying": false,
+        "growth_rate": "Fast",
+        "temperature_range": "10-30°C",
+        "humidity_preference": "Medium",
+        "life_cycle": "Perennial",
+        "toxic_to_pets": false,
+        "flowering_period": "Summer",
+        "propagation_methods": [
+            "Cuttings",
+            "Division"
+        ],
+        "maintenance_level": "Low",
+        "seasonality": "Evergreen",
+        "dimensions": {
+            "height": "20-40 cm",
+            "spread": "40-60 cm"
+        },
+        "native_region": "Europe, Asia",
+        "companion_plants": [
+            "Basil",
+            "Parsley"
+        ]
+    },
+    {
+        "id": "14",
+        "name": "Petunia",
+        "type": [
+            "Flowering",
+            "Outdoor"
+        ],
+        "light_requirements": "Full sun",
+        "watering_frequency": "Twice a week",
+        "color": [
+            "Purple",
+            "Pink",
+            "White",
+            "Yellow"
+        ],
+        "size": "Small",
+        "location": [
+            "Garden",
+            "Balcony"
+        ],
+        "description": "A colorful annual flowering plant that blooms all summer long.",
+        "image_url": "https://example.com/petunia.jpg",
+        "optimal_sun_hours": "6-8",
+        "soil_type": "Rich, well-drained soil",
+        "availability": [
+            "Haifa Nursery",
+            "Giv'atayim Nursery"
+        ],
+        "difficulty": "Beginner",
+        "air_purifying": false,
+        "growth_rate": "Fast",
+        "temperature_range": "15-30°C",
+        "humidity_preference": "Medium",
+        "life_cycle": "Annual",
+        "toxic_to_pets": false,
+        "flowering_period": "Spring to Summer",
+        "propagation_methods": [
+            "Seeds"
+        ],
+        "maintenance_level": "Medium",
+        "seasonality": "Evergreen",
+        "dimensions": {
+            "height": "20-30 cm",
+            "spread": "30-50 cm"
+        },
+        "native_region": "South America",
+        "companion_plants": [
+            "Geranium",
+            "Lantana"
+        ]
+    },
+    {
+        "id": "15",
+        "name": "Basil",
+        "type": [
+            "Herb",
+            "Outdoor",
+            "Edible"
+        ],
+        "light_requirements": "Full sun",
+        "watering_frequency": "Every 2-3 days",
+        "color": [
+            "Green"
+        ],
+        "size": "Small",
+        "location": [
+            "Garden",
+            "Balcony"
+        ],
+        "description": "A fragrant herb used in cooking, ideal for warm climates and easy to grow in pots.",
+        "image_url": "https://example.com/basil.jpg",
+        "optimal_sun_hours": "6-8",
+        "soil_type": "Moist, rich soil",
+        "availability": [
+            "Ramat Gan Nursery",
+            "Kfar Saba Nursery"
+        ],
+        "difficulty": "Beginner",
+        "air_purifying": false,
+        "growth_rate": "Fast",
+        "temperature_range": "20-35°C",
+        "humidity_preference": "Medium",
+        "life_cycle": "Annual",
+        "toxic_to_pets": false,
+        "flowering_period": "Summer",
+        "propagation_methods": [
+            "Seeds",
+            "Cuttings"
+        ],
+        "maintenance_level": "Low",
+        "seasonality": "Deciduous",
+        "dimensions": {
+            "height": "30-50 cm",
+            "spread": "20-40 cm"
+        },
+        "native_region": "Tropical Asia",
+        "companion_plants": [
+            "Tomato",
+            "Mint"
+        ]
+    }
+]

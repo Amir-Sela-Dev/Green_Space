@@ -1,0 +1,24 @@
+// SETUP//
+@import 'setups/variables';
+@import 'setups/mixing';
+@import 'setups/functions';
+
+
+// BASICS//
+@import 'basics/helpers';
+@import 'basics/base';
+@import 'basics/layout';
+
+//CMPS//
+@import 'cmps/app-header.scss';
+@import 'cmps/plant-filter.scss';
+@import 'cmps/plant-list.scss';
+@import 'cmps/plant-preview.scss';
+@import 'cmps/chat-room.scss';
+
+
+//VIEWS//
+@import 'views/home-page.scss';
+@import './views/plant-index.scss';
+@import './views/plant-details.scss';
+@import './views/user-details.scss';

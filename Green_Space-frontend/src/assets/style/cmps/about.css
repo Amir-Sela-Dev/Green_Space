@@ -1,0 +1,19 @@
+.map-main-container {
+    display: flex;
+}
+
+.about article {
+    border: black solid 1px;
+    cursor: pointer;
+}
+
+.about article:hover {
+    background-color: #d0af7b;
+}
+
+
+
+.brunches {
+    width: 30%;
+    text-align: center;
+}

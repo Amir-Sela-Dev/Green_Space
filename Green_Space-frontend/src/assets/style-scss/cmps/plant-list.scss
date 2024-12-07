@@ -1,0 +1,50 @@
+.plant-list {
+    grid-area: plant-list;
+    // padding: 15px 0 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(203px, 203px));
+    gap: 15px;
+    align-items: center;
+    justify-items: center;
+    padding: 0;
+
+    li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $clr3;
+        border: $clr8 solid 1px;
+        border-radius: 25px;
+        height: 350px;
+        width: 100%;
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: rgb(247, 175, 186) 0px 0px 10px 0px;
+        }
+    }
+
+    .details {
+        @include btn($padding: em(12px) em(35px));
+        border-radius: 20px;
+    }
+
+    .edit {
+        justify-self: flex-end;
+    }
+
+    span {
+        font-size: 1.3em;
+    }
+
+    .trash {
+        background-image: url(../../img/trash.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        height: 20px;
+        width: 20px;
+    }
+}

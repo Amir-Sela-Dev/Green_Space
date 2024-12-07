@@ -1,0 +1,18 @@
+.home-page {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .hero-img {
+
+        img {
+            width: 80vw;
+            height: 60vh;
+        }
+    }
+}
