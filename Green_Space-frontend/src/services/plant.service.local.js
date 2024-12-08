@@ -14,7 +14,9 @@ export const plantService = {
     getDefaultFilter,
     getRandomPlant,
     getById,
-    getPlantLabels
+    getPlantLabels,
+    saveUserProfile,
+    getUserProfile
 }
 
 function query(filterBy = getDefaultFilter()) {
@@ -98,4 +100,12 @@ function _createPlant(name, price = 250) {
 
 function getPlantLabels() {
     return ["Indoor", "Outdoor", "Low Maintenance", "Flowering", "Succulent"];
+}
+
+function saveUserProfile(profile) {
+    localStorage.setItem('userProfile', JSON.stringify(profile));
+}
+
+function getUserProfile() {
+    return JSON.parse(localStorage.getItem('userProfile')) || {};
 }

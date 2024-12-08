@@ -16,7 +16,7 @@ import { PlantDetails } from './pages/plant-details';
 import { PlantEdit } from './pages/plant-edit';
 import { Dashboard } from './pages/dashboard';
 import { UserDetails } from './pages/user-details';
-
+import { Questionnaire } from './pages/questionnaire';
 
 
 export function App() {
@@ -29,6 +29,7 @@ export function App() {
           <main>
             <Routes>
               <Route element={<HomePage />} path="/" />
+              <Route element={<Questionnaire />} path="/questionnaire" />
               <Route element={<AboutUs />} path="/about" />
               <Route element={<PlantIndex />} path="/plant" />
               <Route element={<PlantEdit />} path="/plant/edit/:plantId" />

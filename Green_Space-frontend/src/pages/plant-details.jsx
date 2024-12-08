@@ -82,13 +82,13 @@ export function PlantDetails() {
     const { name, price, _id } = plant
 
     return <section className="plant-details">
-        <h1>Plant vendor : {name}</h1>
+        <h1>{name}</h1>
         <h3>Price: ${price}</h3>
         <img src={imgUrl} />
         <p>{plant.description}</p>
         <Link to={`/plant/edit/${_id}`}>Edit</Link>
 
-        {(reviews.length > 0) && <div className="review-container">
+        {/* {(reviews.length > 0) && <div className="review-container">
             <h1>Reviews</h1>
             <ul className="review-list">
                 {reviews.map(review => (
@@ -112,7 +112,7 @@ export function PlantDetails() {
                 ))}
             </ul>
         </div>}
-        <h1>Add review</h1>
+        <h1>Add review</h1> */}
 
         {(loggedInUser) &&
             <form onSubmit={onAddReview}>

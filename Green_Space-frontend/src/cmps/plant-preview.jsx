@@ -12,16 +12,21 @@ export function PlantPreview({ plant }) {
     }
 
     return (
-        <article>
-            <h4 onClick={() => { navigate(`/plant/${plant._id}`); }}>{plant.name}</h4>
+        <article className="plant-preview" onClick={() => { navigate(`/plant/${plant._id}`); }}>
+            <h4 className="plant-name">{plant.name}</h4>
             <img
-                onClick={() => { navigate(`/plant/${plant._id}`); }}
+                className="plant-image"
                 src={imgUrl}
-                alt={plant.name}
+                alt={`Image of ${plant.name}`}
             />
-            <p onClick={() => { navigate(`/plant/${plant._id}`); }}>
-                <span>${plant.price}</span>
+            <p className="plant-price">
+                Price: <span>${plant.price}</span>
             </p>
+            {plant.matchScore !== undefined && (
+                <p className="plant-match">
+                    Match Score: <strong>{plant.matchScore}%</strong>
+                </p>
+            )}
         </article>
     );
 }

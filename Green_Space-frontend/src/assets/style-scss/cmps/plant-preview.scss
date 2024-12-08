@@ -1,18 +1,63 @@
 .plant-preview {
     text-align: center;
-    padding: 0.3em;
+    padding: 1em;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    /* Light background for a card effect */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #e8f5e9;
+        /* Light green for hover */
+    }
 
     h4 {
         text-transform: capitalize;
-        color: black;
+        color: #3A7D44;
+        /* Calming green color */
         font-size: 1.8em;
+        margin-bottom: 0.5em;
     }
 
     img {
         max-width: 150px;
         height: 150px;
-        margin-bottom: 20px;
+        margin-bottom: 1em;
+        border-radius: 8px;
+        /* Slightly rounded edges for a modern look */
+        border: 2px solid #ddd;
+        /* Subtle border for the image */
+        transition: border-color 0.2s ease;
+
+        &:hover {
+            border-color: #3A7D44;
+            /* Green border on hover */
+        }
+    }
+
+    p {
+        font-size: 1em;
+        color: #555;
+        margin: 0.3em 0;
+
+        span {
+            font-weight: bold;
+            color: #333;
+        }
+    }
+
+    .plant-match {
+        font-size: 0.9em;
+        color: #2e7d32;
+        /* Slightly darker green */
+        font-weight: bold;
+        margin-top: 0.5em;
     }
 }
